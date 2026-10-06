@@ -12,15 +12,25 @@ body {
 
 header {
 
-    padding: 150px;
-    text-align: left;
+    display: flexbox;
+    width: 100%;
+    height: 250px;
+    text-align: center;
     background: black;
     color: white;
     /* Image used for background */
-    background-image: url(https://highburyshoppingcentre.co.nz/wp-content/uploads/2022/11/fotor_2023-2-14_17_7_0.png), url('https://i.pinimg.com/originals/1b/7c/21/1b7c2181c3cd2277001a2abdc75d3c2b.gif');
+    background-image: url('https://i.pinimg.com/originals/1b/7c/21/1b7c2181c3cd2277001a2abdc75d3c2b.gif');
     background-repeat: no-repeat;
-    background-position: center, center;
+    background-position: center;
     background-size: wrap;
+}
+
+img {
+
+    width: 350px;
+
+    height: 250px;
+
 }
 
 
