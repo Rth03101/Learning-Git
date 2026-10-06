@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Chosen font modern */
+body {
+
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+header {
+
+    padding: 150px;
+    text-align: left;
+    background: black;
+    color: white;
+    /* Image used for background */
+    background-image: url(https://highburyshoppingcentre.co.nz/wp-content/uploads/2022/11/fotor_2023-2-14_17_7_0.png), url('https://i.pinimg.com/originals/1b/7c/21/1b7c2181c3cd2277001a2abdc75d3c2b.gif');
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-size: wrap;
+}
+
+
+
+.button-container {
+
+    margin-top: 20px;
+    /* Adds space above the button */
+    margin-bottom: 20px;
+    /* Adds space below the button */
+
+
+}
+
+/* Parent Folder */
+nav>ul {
+    display: flex;
+    justify-content: center;
+    /*centers the buttons*/
+    margin: 30px 100px;
+}
+
+/*size of buttons*/
+.btn {
+    background-color: #421602;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    color: whitesmoke
+}
+
+.nav-link {
+    list-style: none;
+    margin: 2px 5px;
+    padding: 15px 15px;
+}
+
+/* Animation when hovering over button */
+.btn:hover {
+    background-color: #971807;
+    color: #fff;
+}
+
+main {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#left {
+    flex: basis 25%;
+    flex-direction: column;
+    /* directs items */
+    background-color: #f1f1f1;
+    padding: 120px;
+}
+
+#right {
+    flex: basis 25%;
+    flex-direction: column;
+    background-color: white;
+    padding: 120px;
+}
+
+#left2 {
+    flex: basis 25%;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    padding: 120px;
+    ;
+}
+
+#right2 {
+    flex: basis 25%;
+    flex-direction: column;
+    background-color: white;
+    padding: 120px;
+}
+
+.imgph {
+    background-color: #aaa;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+}
+
+footer {
+    font-size: 11px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+input[type=text],
+input[type=email] {
+    padding: 2px, 2px;
+    margin: 8px 0px;
+    border: none;
+    border-bottom: 2px solid #971807;
+    width: 40%;
+}
+
+input[type=radio] {
+    width: 20px;
+}
+
+input[type=radio]+label {
+    color: solid #971807;
+}
+
+textarea {
+    border: 2px solid #971807;
+}
+
+
+
+input[type=submit] {
+    background-color: #971807;
+    color: white;
+    width: 30%
+}
